@@ -4,6 +4,10 @@ import sys
 
 import telegram.ext as tg
 
+from collections.abc import Mapping
+from collections.abc import MutableMapping
+from collections.abc import Sequence
+
 # enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
