@@ -1,5 +1,7 @@
-from .config import Development as Config
+class Development:
+    # Your configuration settings here
 
+Config = Development
 
 class Development(Config):
     OWNER_ID = 5278953200  # my telegram ID
