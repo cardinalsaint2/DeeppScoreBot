@@ -4,9 +4,7 @@ import sys
 
 import telegram.ext as tg
 
-from collections.abc import Mapping
-from collections.abc import MutableMapping
-from collections.abc import Sequence
+
 
 # enable logging
 logging.basicConfig(
