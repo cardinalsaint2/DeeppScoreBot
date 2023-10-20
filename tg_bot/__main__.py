@@ -1,3 +1,10 @@
+# ✅ New import for versions Python3.10+
+from collections.abc import Mapping
+
+# 👇️ <class 'collections.abc.Mapping'>
+print(Mapping)
+
+
 import importlib
 import re
 from typing import Optional, List
