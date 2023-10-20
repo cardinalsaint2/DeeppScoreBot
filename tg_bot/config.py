@@ -1,4 +1,4 @@
-from tg_bot.config import Config
+ import Config
 
 
 class Development(Config):
