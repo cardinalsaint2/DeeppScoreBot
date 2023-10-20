@@ -1,4 +1,4 @@
- import Config
+ import config
 
 
 class Development(Config):
